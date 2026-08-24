@@ -7,6 +7,10 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class HomePage {
+	
+	@FindBy(linkText = "Products")
+	private WebElement productLink;
+	
 	@FindBy(linkText = "Organizations")
 	private WebElement orgLink;
 	
